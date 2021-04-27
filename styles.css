@@ -1,0 +1,38 @@
+*, 
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: plum;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+}
+
+.snap {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.snap p {
+  color: white;
+  font-size: 3em;
+  padding: 2em;
+  text-align: center;
+}
