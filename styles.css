@@ -13,7 +13,7 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background-color: plum;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
@@ -28,11 +28,33 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  scroll-snap-align: start;
+  transition: scroll-snap-align 1s ease-in-out;
 }
 
 .snap p {
   color: white;
-  font-size: 3em;
+  font-size: 4em;
   padding: 2em;
   text-align: center;
+}
+
+#plum {
+  background: plum;
+}
+
+#blue {
+  background: cornflowerblue;
+}
+
+#yellow {
+  background: moccasin;
+}
+
+#green {
+  background:aquamarine;
+}
+
+#orange {
+  background: lightcoral;
 }
